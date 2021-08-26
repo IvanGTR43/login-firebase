@@ -19,6 +19,5 @@ export default function AccountStack() {
         component={Guest}
         options={{title: "Acceder"}}/>
     </Stack.Navigator>
-    
   )
 }

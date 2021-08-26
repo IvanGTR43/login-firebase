@@ -20,8 +20,14 @@ export default function Navigation() {
           tabBarActiveTintColor: 'blue',
           tabBarInactiveTintColor: 'gray',
         })}>
-        <Tab.Screen name="account" component={AccountStack} options={{title: "Cuenta"}}/>
-        <Tab.Screen name="user-info" component={UserInfo} options={{title: "Información"}}/>
+        <Tab.Screen
+          name="account"
+          component={AccountStack}
+          options={{title: "Cuenta"}}/>
+        <Tab.Screen
+          name="user-info"
+          component={UserInfo}
+          options={{title: "Información"}}/>
       </Tab.Navigator>
     </NavigationContainer>
   )
